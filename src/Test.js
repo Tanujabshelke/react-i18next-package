@@ -1,7 +1,7 @@
 import "./App.css";
 import { useTrans, i18next } from "./lib/Components/ReactI18n";
 
-function App() {
+function Test() {
   const t = useTrans(["header"]);
 
   const handleChange = (e) => {
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default Test;
